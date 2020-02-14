@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.coco-laptop {
+    margin-top: 10px;
+}
+
+.carousel-item {
+    height: 100vh;
+    height: 500px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+hr {
+    width: 250px;
+    border: 5px solid #77C63B;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+.fixed-laptop {
+    z-index: 0;
+}
+
+/*Card laptop */

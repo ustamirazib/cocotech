@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        transition: 0.5s;
+    }
+
+    .card:hover {
+        box-shadow: 1px 1px 10px grey;
+    }
+}

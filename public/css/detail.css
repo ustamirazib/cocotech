@@ -1,0 +1,15 @@
+.coco-produk-image {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+/*DESKTOP*/
+@media (min-width: 992px) {
+    .coco-produk-image {
+        width: 100%;
+        height: 100%;
+    }
+}

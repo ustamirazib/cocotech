@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #2EC4B6, #77C63B);
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li a {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+/*Coco banner*/
+#coco-banner {
+    background-image: linear-gradient(to right, #2EC4B6, #77C63B);
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 10%;
+}
+
+#coco-banner .coco-wave {
+    width: 100%;
+}
+
+/*coco info*/
+.coco-title {
+    font-family: 'Public Sans', sans-serif;
+    color: #333;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px;
+}
+
+#coco-info .coco-title::before {
+    content: '';
+    background-image: linear-gradient(to right, #2EC4B6, #77C63B);
+    width: 300px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(64px);
+}
+
+#coco-info .coco-title::after {
+    content: '';
+    background-image: linear-gradient(to right, #2EC4B6, #77C63B);
+    width: 50px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#coco-info .coco-robot {
+    margin-top: -25px;
+}
+
+/*Social media*/
+#coco-sosial .jumbotron {
+    background-image: linear-gradient(to right, #2EC4B6, #77C63B);
+    background-attachment: fixed;
+}
+
+#coco-sosial .coco-sosial {
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+#coco-sosial .coco-sosial:hover {
+    transform: scale(1.2);
+    border-radius: 15px;
+}
+
+/*Footer */
+#coco-footer {
+    background-image: linear-gradient(to right, #2EC4B6, #77C63B);
+    color: #fff;
+    padding: 50px 30px;
+    border-radius: 15px;
+}
+
+#coco-footer .coco-wv-footer {
+    width: 100%;
+}
+
+.dropdown-menu a:hover {
+    background: #333;
+}
+
+@media (min-width: 992px) {}
